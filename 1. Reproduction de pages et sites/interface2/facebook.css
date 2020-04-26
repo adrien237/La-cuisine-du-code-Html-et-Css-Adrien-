@@ -55,11 +55,11 @@ margin-right: -20%;
 }
 
 .left-section{
-    width: 45%;
+    width: 55%;
 }
 
 .left-section p{
-    font-size: 18px;
+    font-size: 25px;
     width: 300px;
     margin: 30px auto;
     font-weight: bolder;
@@ -74,7 +74,7 @@ margin-right: -20%;
 }
 
 .right-section{
-    width: 55%;
+    width: 45%;
 }
 
 .right-section h2{
@@ -97,12 +97,14 @@ margin-right: -20%;
     height: 38px;
     font-family: Helvetica, Arial, sans-serif;
     border-radius: 5px;
+    width: 183px;
 }
 .name-session{
     margin-left: 2%;
     height: 38px;
     font-family: Helvetica, Arial, sans-serif;
     border-radius: 5px;
+    width: 183px;
 }
 
 ::placeholder{
