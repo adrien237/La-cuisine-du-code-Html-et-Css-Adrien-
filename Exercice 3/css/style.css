@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-family: cursive , Century , Arial, Helvetica, sans-serif ;
+}
+
+.main{
+    width: 100%;
+    border: 1px solid green;
+    margin: 0 auto;
+    background-color: #a35720;
+    padding: 5px 20px;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+.main ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+}
+
+.main ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+    padding: 5px 20px;
+}
+
+.main ul li a:hover{
+    font-size: 18px;
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+}

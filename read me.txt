@@ -1,0 +1,3 @@
+1. Dans l'exercice 6 qui est celui du formulaire , bien vouloir utiliser tout autre navigateur hormis "firefox" pour apprécier le travail.
+Ce navigateur a une manière bizarre de traiter les formulaires et malheureuseument je n'ai pas eu assez de temps nécessaire pour apporter 
+quelques modifications à ce propos. Merci!

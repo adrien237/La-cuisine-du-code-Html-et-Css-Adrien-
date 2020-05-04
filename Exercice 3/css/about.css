@@ -1,0 +1,36 @@
+@import url(./style.css);
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    height: 100vh;
+}
+
+.presentation{
+    width: 50%;
+    margin: 0 auto;
+    border-left: 1px dashed #a35720;
+    border-right: 1px dashed #a35720;
+}
+
+.presentation h3{
+    color: #a35720;
+    margin-top: 2em;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+footer{
+    width: 100%;
+    background-color: #a35720;
+    color: white;
+    font-size: 20px;    
+}
+
+footer p{
+    margin-top: 1em;
+    text-align: center;
+}

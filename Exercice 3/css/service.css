@@ -1,0 +1,104 @@
+
+
+@import url(./style.css);
+html{
+    overflow-x: hidden;
+}
+.main{
+   background-color: #34ace0;
+}
+
+.content, .my-articles{
+    width: 80%;
+    margin: 0 auto;
+    border-left: 1px dashed #34ace0;
+    border-right: 1px dashed #34ace0;
+}
+
+.content h3{
+    color: #34ace0;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-decoration: underline;
+}
+
+.intro{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.intro-paragraph{
+    width: 400px;
+}
+.intro-img{
+    margin-right: 1em;
+}
+
+.intro-video{
+    display: block;
+    margin-left: 5em;
+    width: 40%;
+}
+
+.low-bottom{
+    margin-bottom: -1.5em;
+}
+
+.up-bottom{
+    margin-bottom: 2em ;
+}
+
+.my-articles{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;  
+    margin-bottom: 2em;
+}
+
+.contenu1{
+    margin-left: 20px;
+    width: 300px;
+}
+
+.contenu1 img{
+    padding-bottom: 1.5em;
+}
+
+.contenu1 p{
+padding-bottom: 3em;
+}
+.contenu1 a{
+    text-decoration: none;
+    color: #34ace0;
+    font-size: 20px;
+}
+
+.my-articles img{
+    display: block;
+}
+
+.middle{
+    width: 100%;
+    background-color: #34ace0;
+    color: antiquewhite;
+}
+
+.middle p{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+
+.middle img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10%;
+    filter: grayscale(100%);
+    margin-top: 1em;
+}
+
+.middle img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
